@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>survey</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+   
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<!--this the first que   about the header  i will do  half  of the project   okey -->
+    <h1 id="title"> the survey </h1>
+    <p id="description">this is a survey</p>
+<form id="survey-form" method="post" action="">
+
+  <!-- put your div class in here-->
+  <label id="name-label" for="name">*name</label>
+  <input type="text" id="name" name="name" placeholder="enter your  name" required/> <label id="email-label" for="email">*Email</label>
+  <input type="email" name="email" id="email" id="email" placeholder="enter your email" required/>
+  <label id="number-label" for="number">*age</label>
+  <input type="number" id="number" name="number" placeholder="age" min="1" max="125"required/>
+  <p>what  is  your current role?</p>
+<select name="role" id="dropdown">
+  <option value="" selected> select on the list below</option>
+  <option value="student">student</option>
+  <option value="job"> full time</option>
+<option value="learner">full time learner</option>
+<option value="prefer"> prefer not to say</option>
+<option value="other">other</option>
+
+
+
+<!-- write your code below here-->
+
+
+<p>Please select your favorite fruits:</p>
+<div class="radio-container">
+  <div class="radio-element">
+  <input type="radio" id="label-radio" name="fav_fruit" value="Orange">
+  <label for="html">Orange</label><br>
+  <input type="radio" id="css" name="fav_fruit" value="Mango">
+  <label for="css">Mango</label><br>
+  <input type="radio" id="javascript" name="fav_fruit" value="Pawpaw">
+  <label for="javascript">Pawpaw</label></div></div>
+</select>
+<p>This is a question?</p>
+<div class="checkbox-container">
+    <div class="checkbox-element">
+        <input type="checkbox" value="attribute" id="answer1" />
+        <label for="answer1">Answer1</label>
+    </div>
+    <div class="checkbox-element">
+        <input type="checkbox" value="attribute" id="answer1" />
+        <label for="answer1">Answer1</label>
+    </div>
+    <textarea name="comments" id="comments"></textarea>
+    <button class="shadow" type="submit" id="submit">Submit</button>
+</form>
+
+    
+    
+    <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  
+  </body>
+</html>
