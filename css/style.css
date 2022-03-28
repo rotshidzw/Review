@@ -1,7 +1,6 @@
 :root {
 	--main-color: rgb(117, 133, 187);  
 }
-
 body {
 	background: var(--main-color);
 }
